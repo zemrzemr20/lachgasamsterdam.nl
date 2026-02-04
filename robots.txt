@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /search/
+Disallow: /*?*
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+
+# Sitemap locatie
+Sitemap: https://www.lachgasbezorgenamsterdam.nl/sitemap.xml
+
+# Crawl-delay voor bots (optioneel)
+Crawl-delay: 10
+
+# Prio bots (Google, Bing)
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Crawl-delay: 5
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Crawl-delay: 5
+
+# Social media bots
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: FacebookExternalHit
+Allow: /
+Crawl-delay: 2

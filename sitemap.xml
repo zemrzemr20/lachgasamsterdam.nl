@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <url>
+        <loc>https://www.lachgasbezorgenamsterdam.nl/</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+
+        <!-- Afbeelding -->
+        <image:image>
+            <image:loc>https://www.lachgasbezorgenamsterdam.nl/logo5.png</image:loc>
+            <image:title>Lachgas Bezorgen Amsterdam</image:title>
+        </image:image>
+
+        <!-- Video -->
+        <video:video>
+            <video:thumbnail_loc>
+                https://www.lachgasbezorgenamsterdam.nl/video-thumbnail.jpg
+            </video:thumbnail_loc>
+            <video:title>Bezorgservice Amsterdam</video:title>
+            <video:description>
+                Snelle en discrete bezorgservice in Amsterdam, 24/7 bereikbaar.
+            </video:description>
+            <video:content_loc>
+                https://www.lachgasbezorgenamsterdam.nl/videobc.mp4
+            </video:content_loc>
+            <video:duration>60</video:duration>
+            <video:publication_date>2026-02-04</video:publication_date>
+            <video:family_friendly>no</video:family_friendly>
+        </video:video>
+
+        <!-- Taal -->
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.lachgasbezorgenamsterdam.nl/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lachgasbezorgenamsterdam.nl/" />
+
+    </url>
+
+</urlset>
